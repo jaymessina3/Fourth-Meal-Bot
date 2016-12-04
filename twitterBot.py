@@ -27,7 +27,7 @@ if __name__ == "__main__":
               newL = ""
               for x in splitting:
                         newL += x
-                        newL+= " \U0001F44F"                       
+                        newL+= " \U0001F44F "                       
               twitter.tweet(newL)
               time.sleep(120)#Tweet every 24 hours = 86400 
           
